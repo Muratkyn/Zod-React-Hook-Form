@@ -2,7 +2,6 @@ import { SubmitHandler, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 
-
 // Zod is a TypeScript-first schema declaration and validation library. 
 // Zod will automatically infer the static TypeScript type for our data structure and we only declare a validator once. 
 // Zod eliminates the duplicative type declaration once in Zod and again in TypeScript
